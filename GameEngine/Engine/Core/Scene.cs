@@ -4,7 +4,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+//Author: Daniil Leshchenko
+// 27.03.25
+// Description:This abstract class represents a game scene that manages game objects,
+// rendering, and updates. It uses an OcTree for spatial partitioning and frustum culling to optimize rendering.
 namespace GameEngine.Engine.Core
 {
     public abstract class Scene

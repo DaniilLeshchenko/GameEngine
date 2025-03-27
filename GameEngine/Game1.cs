@@ -3,6 +3,12 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
+//Author: Daniil Leshchenko
+// 27.03.25
+// Description: This is the main game class that manages initialization,
+// content loading, updating, and drawing using MonoGame.
+// It sets up the custom game engine and loads a test scene.
+
 namespace GameEngine
 {
     public class Game1 : Game

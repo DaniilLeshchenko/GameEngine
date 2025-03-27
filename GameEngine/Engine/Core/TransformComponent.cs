@@ -5,6 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Xna.Framework;
 
+//Author: Daniil Leshchenko
+// 27.03.25
+// Description:This class defines an object's position, rotation,
+// and scale in 3D space. It also calculates the world transformation matrix based on those values.
+
 namespace GameEngine.Engine.Core
 {
     public class TransformComponent : Component

@@ -6,6 +6,11 @@ using System.Text;
 using System.Threading.Tasks;
 using GameEngine.Engine.Core;
 
+//Author: Daniil Leshchenko
+// 27.03.25
+// Description: This class manages the core game engine logic,
+// including input, camera, and active scenes. It handles loading, updating, and drawing scenes in the game.
+
 namespace GameEngine.Engine.Managers
 {
     public class GameEngine : DrawableGameComponent

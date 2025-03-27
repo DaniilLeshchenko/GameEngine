@@ -5,6 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using static System.Formats.Asn1.AsnWriter;
 
+//Author: Daniil Leshchenko
+// 27.03.25
+// Description: This class represents a game object that holds components like transform,
+// logic, and renderers. It manages component initialization, updates, and destruction within a scene.
+
 namespace GameEngine.Engine.Core
 {
 

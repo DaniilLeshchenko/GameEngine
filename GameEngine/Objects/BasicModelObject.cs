@@ -8,6 +8,11 @@ using GameEngine.Engine.Core;
 using GameEngine.Engine.Components;
 using Microsoft.Xna.Framework;
 
+//Author: Daniil Leshchenko
+// 27.03.25
+// Description:This class defines a basic 3D model game object.
+// It sets the object's position and adds a BasicEffectModel component for rendering.
+
 namespace GameEngine.Objects
 {
     public class BasicModelObject : GameObject

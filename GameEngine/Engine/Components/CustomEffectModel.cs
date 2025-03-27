@@ -3,6 +3,11 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Content;
 using GameEngine.Engine.Core;
 
+//Author: Daniil Leshchenko
+// 27.03.25
+// Description:This class renders 3D models using custom effects and optional textures.
+// It sets shader parameters like lighting, colors, and transformations before drawing the model.
+
 namespace GameEngine.Engine.Components
 {
     internal class CustomEffectModel : RenderComponent

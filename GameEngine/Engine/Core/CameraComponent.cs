@@ -5,6 +5,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+//Author: Daniil Leshchenko
+// 27.03.25
+// Description:This class defines a camera component with view and projection matrices.
+// It updates the camera’s frustum and registers itself with the CameraManager for rendering.
 
 namespace GameEngine.Engine.Core
 {
