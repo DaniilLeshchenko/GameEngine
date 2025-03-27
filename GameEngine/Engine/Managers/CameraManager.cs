@@ -4,7 +4,7 @@ using System.Linq;
 using Microsoft.Xna.Framework;
 using GameEngine.Engine.Core;
 
-namespace Engine.Managers
+namespace GameEngine.Engine.Managers
 {
     public sealed class CameraManager : GameComponent
     {

@@ -8,6 +8,7 @@ namespace GameEngine
     public class Game1 : Game
     {
         private GraphicsDeviceManager graphics;
+        private GameEngine.Engine.Managers.GameEngine gameEngine;
 
         public Game1()
         {
@@ -18,6 +19,8 @@ namespace GameEngine
 
             Content.RootDirectory = "Content";
             IsMouseVisible = true;
+
+            gameEngine = new GameEngine.Engine.Managers.GameEngine(this);
         }
 
         protected override void Initialize()
@@ -30,6 +33,7 @@ namespace GameEngine
 
         protected override void LoadContent()
         {
+            gameEngine.LoadScene(new TestScene());
         }
 
         protected override void Update(GameTime gameTime)
