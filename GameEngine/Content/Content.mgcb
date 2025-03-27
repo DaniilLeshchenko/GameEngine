@@ -32,3 +32,9 @@
 /processorParam:TextureFormat=Compressed
 /build:Models/SM_Cube.fbx
 
+#begin TextureNormalMappingHLSL.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:TextureNormalMappingHLSL.fx
+
