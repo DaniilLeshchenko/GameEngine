@@ -26,7 +26,7 @@ namespace GameEngine.Engine.Managers
 
         public void LoadScene(Scene _scene)
         {
-            if (ActiveScene != null) 
+            if (_scene != null) 
             { 
                 UnloadContent();
                 activeScene = _scene;
